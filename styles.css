@@ -1,0 +1,95 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #228B22; /* Green color */
+    padding: 1em 2em;
+    color: white;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('images/cinnamon-banner.jpg') no-repeat center center/cover;
+    color: white;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+
+.cta-button {
+    padding: 0.8em 2em;
+    background: #fff;
+    color: #228B22;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #90EE90; /* Light green */
+}
+
+.about, .benefits {
+    padding: 2em;
+    text-align: center;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-around;
+}
+
+.benefit img {
+    max-width: 80px;
+}
+
+footer {
+    background: #228B22;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer .social-icons a {
+    color: white;
+    margin: 0 0.5em;
+    text-decoration: none;
+}
